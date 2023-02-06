@@ -1,0 +1,2 @@
+# SecurityLake_IAM_Role_AmazonSecurityLakeMetaStoreManager
+CloudFormation to automate the deployment of the required AmazonSecurityLakeMetaStoreManager role
