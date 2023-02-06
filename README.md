@@ -10,4 +10,4 @@ Click on the button below to launch the [AmazonSecurityLakeMetaStoreManager_IAM_
 
 The ARN of the IAM role is available in the outputs of the CloudFormation stack. The arn can be passed to Security Lake when you are enabling it - as pictured below
 
-<img alt="IAM_Intergration" src="https://github.com/ev2900/SecurityLake_AmazonSecurityLakeMetaStoreManager/blob/main/README/IAM_Intergration.png">
+<img alt="IAM_Intergration" width="800" src="https://github.com/ev2900/SecurityLake_AmazonSecurityLakeMetaStoreManager/blob/main/README/IAM_Intergration.png">
