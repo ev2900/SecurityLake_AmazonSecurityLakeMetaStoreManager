@@ -4,6 +4,6 @@ AWS Security Lake requires an IAM role *AmazonSecurityLakeMetaStoreManager*. The
 
 To make it easier to get started with Amazon Security Lake the CloudFormation stack in this repository automates the deployment of the required IAM role *AmazonSecurityLakeMetaStoreManager*. 
 
-Click on the button below to launch the [AmazonSecurityLakeMetaStoreManager_IAM_Role.yaml](https://github.com/ev2900/SecurityLake_AmazonSecurityLakeMetaStoreManager/blob/main/AmazonSecurityLakeMetaStoreManager_IAM_Role.yaml) stack
+Click on the button below to launch the [AmazonSecurityLakeMetaStoreManager_IAM_Role.yaml](https://github.com/ev2900/SecurityLake_AmazonSecurityLakeMetaStoreManager/blob/main/AmazonSecurityLakeMetaStoreManager_IAM_Role.yaml) CloudFormation stack.
 
 [![Launch CloudFormation Stack](https://sharkech-public.s3.amazonaws.com/misc-public/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AmazonSecurityLakeMetaStoreManager_IAM_Role&templateURL=https://sharkech-public.s3.amazonaws.com/misc-public/AmazonSecurityLakeMetaStoreManager_IAM_Role.yaml)
