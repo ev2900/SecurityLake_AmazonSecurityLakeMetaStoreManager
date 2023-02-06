@@ -62,9 +62,6 @@ Resources:
                   - 'glue:BatchCreatePartition'
                 Resource:
                   - 'arn:aws:glue:*:*:table/amazon_security_lake_glue_db*/*'
-                  - 'arn:aws:glue:*:*:database/amazon_security_lake_glue_db*'
-                  - 'arn:aws:glue:*:*:catalog'
-                  - 'arn:aws:glue:*:*:database/default'
             - Sid: 'AllowToReadFromSqs'
               Effect: Allow
               Action:
