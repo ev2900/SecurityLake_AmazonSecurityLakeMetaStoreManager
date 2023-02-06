@@ -1,4 +1,4 @@
-# Automated Deployment of Required IAM Roles for AWS Security Lake
+# Automated Deployment of Required IAM Role for AWS Security Lake
 
 AWS Security Lake requires an IAM role *AmazonSecurityLakeMetaStoreManager*. The trust policy and permissions required for the role are documented in the [Create necessary IAM roles](https://docs.aws.amazon.com/security-lake/latest/userguide/getting-started.html#prerequisite-iam-roles) section of the [Amazon Security Lake documentation](https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html).
 
