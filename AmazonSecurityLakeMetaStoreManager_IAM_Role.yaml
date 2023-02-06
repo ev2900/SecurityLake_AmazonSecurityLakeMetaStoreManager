@@ -1,0 +1,36 @@
+Description: IAM role AmazonSecurityLakeMetaStoreManager for Security Lake
+Resources:
+  AmazonSecurityLakeMetaStoreManager_IAM_Role:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: 'AmazonSecurityLakeMetaStoreManager'
+      Description: 'IAM role for AWS Security Lake'
+      # Trust relationships
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+                - securitylake.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      # Premissions
+      Policies:
+        # Security policy
+        - PolicyName: AmazonSecurityLakeMetaStoreManager
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Sid: 'AllowWriteLambdaInsights'
+                Effect: Allow
+                Action: 
+                  - 'logs:CreateLogStream'
+                  - 'logs:PutLogEvents'
+                Resource: 'arn:aws:logs:*:*:log-group:/aws/lambda-insights:*'
+# Output ARN of role
+Outputs:
+  RoleARN:
+    Description: IAM role ARN
+    Value: !GetAtt IAMRole.Arn
