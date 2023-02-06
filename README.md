@@ -1,5 +1,3 @@
-# Automated Deployment of AmazonSecurityLakeMetaStoreManager IAM Role
+# Automated Deployment of Required IAM Roles for AWS Security Lake
 
-AWS Security Lake requires  
-
-CloudFormation to automate the deployment of the required AmazonSecurityLakeMetaStoreManager role
+AWS Security Lake requires 
