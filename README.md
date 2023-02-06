@@ -6,4 +6,4 @@ To make it easier to get started with Amazon Security Lake the CloudFormation st
 
 Click on the button below to launch the [AmazonSecurityLakeMetaStoreManager_IAM_Role.yaml](https://github.com/ev2900/SecurityLake_AmazonSecurityLakeMetaStoreManager/blob/main/AmazonSecurityLakeMetaStoreManager_IAM_Role.yaml) stack
 
-[![Launch CloudFormation Stack](https://sharkech-public.s3.amazonaws.com/misc-public/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=open-search-deleteddocuments&templateURL=https://sharkech-public.s3.amazonaws.com/misc-public/opensearch_deleteddocuments.yaml)
+[![Launch CloudFormation Stack](https://sharkech-public.s3.amazonaws.com/misc-public/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AmazonSecurityLakeMetaStoreManager_IAM_Role&templateURL=https://sharkech-public.s3.amazonaws.com/misc-public/AmazonSecurityLakeMetaStoreManager_IAM_Role.yaml)
