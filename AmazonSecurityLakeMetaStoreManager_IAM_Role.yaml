@@ -60,14 +60,18 @@ Resources:
                   - 'glue:CreateTable'
                   - 'glue:GetTables'
                   - 'glue:BatchCreatePartition'
-                Resource: 'arn:aws:glue:*:*:table/amazon_security_lake_glue_db*/*'
-            - Sid: 'AllowToReadFromSqs'
-              Effect: Allow
-              Action:
-                - 'sqs:ReceiveMessage'
-                - 'sqs:DeleteMessage'
-                - 'sqs:GetQueueAttributes'
-              Resource: !Sub 'arn:aws:sqs:*:${AWS::AccountId}:*'
+                Resource: 
+                  - 'arn:aws:glue:*:*:table/amazon_security_lake_glue_db*/*'
+                  - 'arn:aws:glue:*:*:database/amazon_security_lake_glue_db*'
+                  - 'arn:aws:glue:*:*:catalog'
+                  - 'arn:aws:glue:*:*:database/default'
+              - Sid: 'AllowToReadFromSqs'
+                Effect: Allow
+                Action:
+                  - 'sqs:ReceiveMessage'
+                  - 'sqs:DeleteMessage'
+                  - 'sqs:GetQueueAttributes'
+                Resource: !Sub 'arn:aws:sqs:*:${AWS::AccountId}:*'
 # Output ARN of role
 Outputs:
   RoleARN:
