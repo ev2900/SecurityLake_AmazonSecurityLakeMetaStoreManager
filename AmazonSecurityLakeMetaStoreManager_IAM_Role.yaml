@@ -33,4 +33,4 @@ Resources:
 Outputs:
   RoleARN:
     Description: IAM role ARN
-    Value: !GetAtt IAMRole.Arn
+    Value: !GetAtt AmazonSecurityLakeMetaStoreManagerIAMRole.Arn
