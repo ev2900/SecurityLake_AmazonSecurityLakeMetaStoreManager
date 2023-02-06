@@ -1,6 +1,6 @@
 Description: IAM role AmazonSecurityLakeMetaStoreManager for Security Lake
 Resources:
-  AmazonSecurityLakeMetaStoreManager_IAM_Role:
+  AmazonSecurityLakeMetaStoreManagerIAMRole:
     Type: AWS::IAM::Role
     Properties:
       RoleName: 'AmazonSecurityLakeMetaStoreManager'
