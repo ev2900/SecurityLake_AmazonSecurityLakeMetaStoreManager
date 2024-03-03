@@ -1,6 +1,6 @@
 # Automated Deployment of Required IAM Role for AWS Security Lake
 
-<img width="275" alt="map-user" src="https://img.shields.io/badge/cloudformation template deployments-0-blue"> <img width="85" alt="map-user" src="https://img.shields.io/badge/views-485-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-142-green">
+<img width="275" alt="map-user" src="https://img.shields.io/badge/cloudformation template deployments-0-blue"> <img width="85" alt="map-user" src="https://img.shields.io/badge/views-488-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-142-green">
 
 AWS Security Lake requires an IAM role *AmazonSecurityLakeMetaStoreManager*. The trust policy and permissions required for the role are documented in the [Create necessary IAM roles](https://docs.aws.amazon.com/security-lake/latest/userguide/getting-started.html#prerequisite-iam-roles) section of the [Amazon Security Lake documentation](https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html).
 
